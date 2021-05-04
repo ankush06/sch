@@ -1,0 +1,12 @@
+{
+  "name": "sch",
+  "displayName": "sch",
+  "expo": {
+    "name": "sch",
+    "slug": "sch",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
