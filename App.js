@@ -12,7 +12,7 @@ class app extends React.Component
   }
 
    render() {
-     return <View> Ankush Rai</View>;
+    return <Text>Try editing me! 🎉</Text>;
    }
 }
 
