@@ -2,14 +2,21 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+class app extends React.Component
+{
+
+   _handleAdminIdSubmit() {
+    
+      this.props.navigation.navigate('AdminLogin');
+
+  }
+
+   render() {
+     return <View> Ankush Rai</View>;
+   }
 }
+
+export default app
 
 const styles = StyleSheet.create({
   container: {
@@ -19,3 +26,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
